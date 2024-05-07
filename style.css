@@ -1,0 +1,55 @@
+header{
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    width: 90vw;
+    height: 90vh;
+    background-color: #e40000c5;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    background-color: #00a2ff85;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+
+.tarjeta h1{
+    text-shadow: 0px 0px 20px #000000;
+    padding: 10px;
+    margin: 5px;
+    transition: 300ms;
+}
+
+.tarjeta h1:hover{
+    transform: scale(1.05);
+}
+.tarjeta p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    animation: p1 1s infinite alternate ease-out;
+}
+
+.foto{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 50px 0px;
+    border-radius: 50%;
+}
+
+@keyframes p1{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.025);
+    }
+}
